@@ -1,0 +1,343 @@
+{
+  "basics": {
+    "name": "David Mackay",
+    "headline": "Full Stack Software Engineer",
+    "email": "mackaydavid808@gmail.com",
+    "phone": "15617276392",
+    "location": "NYC, USA",
+    "url": {
+      "label": "",
+      "href": "https://www.davidm.dev/"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": ""
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "j5uwqiuppflo7vnewba6vwpe",
+          "visible": true,
+          "institution": "Massachusetts Institute of Technology",
+          "studyType": "Bachelor's of Science",
+          "area": "Computation and Cognition",
+          "score": "",
+          "date": "Sep 2017 - Jun 2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "bccvm2nzde5k784jvg3xd69i",
+          "visible": true,
+          "company": "Kyralhealth",
+          "position": "Fullstack Software Engineer",
+          "location": "NYC, USA",
+          "date": "July 2024 - Present",
+          "summary": "<ul><li><p><strong>NFC Protocol Design Leadership</strong>: Led the development and design of the NFC insurance card protocol for patient authentication from point of contact to data retrieval.</p></li><li><p><strong>Hyperledger Blockchain Integration</strong>: Collaborated with the lead blockchain engineer to ensure proper data flow between the NFC interface and the blockchain, integrating the NFC protocol seamlessly with the existing healthcare information system.</p></li><li><p><strong>NFC Card Reading/Writing Design</strong>: Designed scripts for writing patient authentication data to NFC tags, reading and authenticating NFC tag data, and managing permissions for NFC tags.</p></li><li><p><strong>Staff Scheduling and Patient Dashboard Design: </strong>Collaborated with the lead UX designer to implement a frontend interface using ReactJS for hospital staff to schedule/view their work hours and for patients to schedule appointments.</p></li><li><p><strong>Staff and Patient Scheduling API: </strong>Implemented endpoints in a Flask server to handle scheduling staff work hours and providing patients with appointment availabilities.</p></li><li><p><strong>Staff and Patient Scheduling Database: </strong>Designed and developed several core tables and datatypes for staff and patient scheduling functionalities. Ensured best practices between datatypes in a relational database.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://kyralhealth.com/"
+          }
+        },
+        {
+          "id": "gwm896isoodgwjgn3jwpwei6",
+          "visible": true,
+          "company": "Freelance/Contractor",
+          "position": "AI Language Model Training Contractor",
+          "location": "NYC, USA",
+          "date": "February 2024 - Present",
+          "summary": "<ul><li><p><strong>Developed Challenging Prompts</strong>: Created and curated complex prompts, with a focus on coding challenges in JavaScript and Python, to evaluate and improve the performance of AI language models including GPT-3.5, GPT-4, and GPT-4o.</p></li><li><p><strong>Response Evaluation and Ranking</strong>: Analyzed and ranked model responses with meticulous attention to detail, identifying strengths and weaknesses to enhance the model's accuracy and reliability in coding contexts.</p></li><li><p><strong>Response Correction</strong>: Refined and corrected inaccurate or suboptimal model responses to client coding prompts, ensuring high-quality and relevant output for JavaScript and Python queries.</p></li><li><p><strong>Peer Review and Feedback</strong>: Acted as a reviewer for colleagues' submissions, providing detailed feedback and recommendations for improvement, further demonstrating strong attention to detail and a commitment to excellence.</p></li><li><p><strong>Attention to Detail</strong>: Demonstrated exceptional attention to detail in all aspects of work, from prompt creation to response evaluation and peer review, ensuring the highest standards of quality and accuracy in coding-related tasks.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "zg73xbwbs40bz6zcofajuxeb",
+          "visible": true,
+          "company": "Freelance/Contractor",
+          "position": "Web Developer",
+          "location": "NYC, USA",
+          "date": "Jan 2024 - Present",
+          "summary": "<ul><li><p><strong>Website Design and Hosting</strong>: Designed and hosted websites for several successful New York Hospitality Industry businesses.</p></li><li><p><strong>Wix Website Management</strong>: Updated and debugged pre-built websites using Wix for Ye's Apothecary.</p></li><li><p><strong>SquareSpace Website Development</strong>: Built a website from scratch using SquareSpace for Nomad Tea Parlour.</p></li><li><p><strong>React and Vercel Website Development</strong>: Built and hosted a website from scratch using React and Vercel for ForPlay Studios.</p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.yesapothecary.com/\">Ye's Apothecary</a>, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.nomadteaparlour.com/\">Nomad Tea Parlour</a>, <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.forplaystudios.com/\">ForPlay Studios</a></p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "p7gbdcxig0tf6lswvs1g6nrx",
+          "visible": false,
+          "company": "DM Liquidity Solutions",
+          "position": "Founder",
+          "location": "NYC, USA",
+          "date": "Jan 2024 - Present",
+          "summary": "<ul><li><p><strong>Startup Founding and Management</strong>: Founded and managed a Cryptocurrency Liquidity startup, overseeing all operations from website creation and legal paperwork to investment strategies and implementations.</p></li><li><p><strong>Investor Funding Secured</strong>: Secured initial investor funding to launch the startup through strategic pitches and networking efforts.</p></li><li><p><strong>Blockchain and Software Expertise</strong>: Leveraged expertise in blockchain technology and software development to achieve an average monthly return of 16% on seed capital, 9% of which was returned to investors.</p></li><li><p><strong>Innovative Investment Strategies</strong>: Implemented innovative strategies, including investments in stablecoin liquidity pools and lending on DeFi protocols, to generate consistent returns.</p></li><li><p><strong>Entrepreneurial Acumen</strong>: Demonstrated entrepreneurial acumen and adaptability in navigating the dynamic landscape of decentralized finance (DeFi).</p></li><li><p><strong>Ongoing Investor Returns</strong>: Currently providing investors with a 1% monthly return on their invested capital.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://dmliquidity.com"
+          }
+        },
+        {
+          "id": "rim2oyaoj2jtzhigugv37ugd",
+          "visible": true,
+          "company": "Citibank",
+          "position": "Assistant Vice President - Software Engineer",
+          "location": "NYC, USA",
+          "date": "December 2021 - November 2023",
+          "summary": "<ul><li><p><strong>DevOps Pipeline Implementation</strong>: Implemented the DevOps pipeline for the Risk Analytics Scenario Forecasting Platform, Wholesale Forecasting Platform, and Quantitative Risk Library.</p></li><li><p><strong>Jenkins Server Setup</strong>: Set up Jenkins Server to operate in a UNIX environment.</p></li><li><p><strong>Jenkins and Makefile Management</strong>: Wrote and updated Jenkinsfile and Makefile content for over 25 repositories.</p></li><li><p><strong>Custom Python Library Creation</strong>: Created a Python library to enforce custom git pre-commit checks and to be used with Jenkins for quality and bug testing within each build.</p></li><li><p><strong>Flask API Development</strong>: Built a Flask API to handle the uploads and downloads of terabytes of blobs containing Risk Analysis data to and from a MySQL Database for modeler usage.</p></li><li><p><strong>Error Checking Implementation</strong>: Implemented parameter type checking and content checking to catch errors before committing uploads.</p></li><li><p><strong>Data Integrity Assurance</strong>: Implemented strict data checks for the modeler’s data to ensure data integrity and reliability.</p></li><li><p><strong>Data Cleaning and Loading</strong>: Cleaned and corrected thousands of data entries through manual intervention and self written Python scripts. Wrote automated scripts to flag bad data and upload cleaned data from hundreds of Excel files.</p></li><li><p><strong>MySQL Database Development</strong>: Built a MySQL relational database for HR Analytics and Flask API to enable executives of the Risk Department to track employee movement, performance, attrition, and more.</p></li><li><p><strong>Database Schema Design</strong>: Designed database schema for several datasets, including employee grade levels, manager reports, department activity, job requisitions, etc.</p></li><li><p><strong>Data Loader Development</strong>: Built both a command-line loader and a web-facing loader to load data into all relevant tables in the database, including schema checking and logic checks to ensure uploaded data was compatible and correct.</p></li><li><p><strong>Data Analysis Functions</strong>: Wrote functions to pull data from the database and perform relevant calculations to show employee attrition, manager headcount usage, full-time equivalents, etc., using Pandas and NumPy.</p></li><li><p><strong>Data Visualization</strong>: Displayed this data in the form of graphs using Dash and Plotly.</p></li><li><p><strong>Employee Onboarding</strong>: Onboarded several employees within the department (including non-team members) to core services through tasks such as Artifactory setup, Marketplace orders, Chocolatey usage, Conda setup, virtual environment installation, and Linux usage.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": []
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": []
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": []
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "a6p832d6b4u2utf76vhsuqts",
+          "visible": true,
+          "name": "Software Development",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Python",
+            "React",
+            "DevOps",
+            "CI/CD",
+            "Shell Scripting",
+            "Relational Database Design",
+            "Web3",
+            "Pandas",
+            "NumPy"
+          ]
+        },
+        {
+          "id": "sytbanar63ulilww9zh28i12",
+          "visible": true,
+          "name": "Backend Development",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Flask-API",
+            "AWS",
+            "MySQL",
+            "Firebase",
+            "Solidity",
+            "Rust",
+            "Google Cloud Functions",
+            "NextJS"
+          ]
+        },
+        {
+          "id": "l2xb4hw2jmt14v1cgkp1fmjn",
+          "visible": true,
+          "name": "Frontend Development",
+          "description": "",
+          "level": 3,
+          "keywords": [
+            "Flutterflow",
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "React"
+          ]
+        },
+        {
+          "id": "x3053hdrwj45ybz5kkgjgpjy",
+          "visible": true,
+          "name": "Martial Arts",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Northern Shaolin",
+            "Tai Chi",
+            "Muay Thai",
+            "Lion Dance"
+          ]
+        }
+      ]
+    },
+    "custom": {
+      "xmdbi4zx7unvl1bm42706j36": {
+        "name": "Custom Section",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "xmdbi4zx7unvl1bm42706j36",
+        "items": []
+      }
+    }
+  },
+  "metadata": {
+    "template": "onyx",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "education",
+          "experience",
+          "projects",
+          "volunteer",
+          "references",
+          "custom.xmdbi4zx7unvl1bm42706j36"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#0284c7"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular",
+          "italic",
+          "600"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
