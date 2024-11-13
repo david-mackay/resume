@@ -1,9 +1,8 @@
-// app/page.tsx
 'use client';
 
 import React, { useEffect, useState } from 'react';
 import { Phone, Mail, Globe } from 'lucide-react';
-import type { Resume } from '@/types/resume';
+import type { Resume, EducationItem, ExperienceItem, SkillItem } from '@/types/resume';
 import resumeData from '../public/data/resume.json';
 import { ThemeToggle } from '@/components/theme-toggle';
 
@@ -80,14 +79,16 @@ export default function ResumeWebsite() {
             <span className="bg-blue-600 dark:bg-blue-500 w-1 h-8 mr-3"></span>
             Education
           </h2>
-          {data.sections.education.items?.filter(edu => edu.visible).map((edu) => (
-            <div key={edu.id} className="mb-4 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{edu.institution}</h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                {edu.studyType} in {edu.area}
-              </p>
-              <p className="text-gray-600 dark:text-gray-400">{edu.date}</p>
-            </div>
+          {data.sections.education.items?.map((edu: EducationItem) => (
+            edu.visible && (
+              <div key={edu.id} className="mb-4 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{edu.institution}</h3>
+                <p className="text-gray-700 dark:text-gray-300">
+                  {edu.studyType} in {edu.area}
+                </p>
+                <p className="text-gray-600 dark:text-gray-400">{edu.date}</p>
+              </div>
+            )
           ))}
         </section>
 
@@ -97,26 +98,28 @@ export default function ResumeWebsite() {
             <span className="bg-blue-600 dark:bg-blue-500 w-1 h-8 mr-3"></span>
             Experience
           </h2>
-          {data.sections.experience.items?.filter(exp => exp.visible).map((exp) => (
-            <div 
-              key={exp.id} 
-              className="mb-8 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
-            >
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{exp.company}</h3>
-                  <p className="text-gray-700 dark:text-gray-300 font-medium">{exp.position}</p>
-                  <p className="text-gray-600 dark:text-gray-400">{exp.location}</p>
-                </div>
-                <p className="text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">
-                  {exp.date}
-                </p>
-              </div>
+          {data.sections.experience.items?.map((exp: ExperienceItem) => (
+            exp.visible && (
               <div 
-                className="mt-4 prose prose-sm max-w-none dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-white prose-strong:text-gray-800 dark:prose-strong:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300"
-                dangerouslySetInnerHTML={{ __html: exp.summary }}
-              />
-            </div>
+                key={exp.id} 
+                className="mb-8 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
+              >
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{exp.company}</h3>
+                    <p className="text-gray-700 dark:text-gray-300 font-medium">{exp.position}</p>
+                    <p className="text-gray-600 dark:text-gray-400">{exp.location}</p>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">
+                    {exp.date}
+                  </p>
+                </div>
+                <div 
+                  className="mt-4 prose prose-sm max-w-none dark:prose-invert prose-headings:text-gray-800 dark:prose-headings:text-white prose-strong:text-gray-800 dark:prose-strong:text-white prose-p:text-gray-700 dark:prose-p:text-gray-300"
+                  dangerouslySetInnerHTML={{ __html: exp.summary }}
+                />
+              </div>
+            )
           ))}
         </section>
 
@@ -127,23 +130,25 @@ export default function ResumeWebsite() {
             Skills
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {data.sections.skills.items?.filter(skill => skill.visible).map((skill) => (
-              <div 
-                key={skill.id} 
-                className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
-              >
-                <h3 className="text-xl font-semibold mb-3 text-gray-800 dark:text-white">{skill.name}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {skill.keywords.map((keyword, kidx) => (
-                    <span
-                      key={kidx}
-                      className="px-3 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      {keyword}
-                    </span>
-                  ))}
+            {data.sections.skills.items?.map((skill: SkillItem) => (
+              skill.visible && (
+                <div 
+                  key={skill.id} 
+                  className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300"
+                >
+                  <h3 className="text-xl font-semibold mb-3 text-gray-800 dark:text-white">{skill.name}</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skill.keywords.map((keyword, kidx) => (
+                      <span
+                        key={kidx}
+                        className="px-3 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
+                      >
+                        {keyword}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )
             ))}
           </div>
         </section>
